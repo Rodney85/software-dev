@@ -1,0 +1,308 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    height: 100vh;
+    width: 100%;
+}
+
+.navbar{
+    height: 10%;
+    width: 100%;
+    background-color: ghostwhite;
+}
+
+.nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.nav li{
+    list-style: none;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.nav button{
+    height: 35px;
+    width: 100px;
+    margin-top: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: #e42a12;
+    color:  ghostwhite;
+    font-weight: 600;
+    margin-right: 20px;
+}
+
+.img{
+    height: 85%;
+    width: 100%;
+    background-image: url(/images/banner.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.img h1{
+    font-size: 40px;
+    color: rgb(56, 56, 56);
+    margin: 30px;
+}
+
+.img p{
+    font-size: 20px;
+    color: rgb(107, 107, 107);
+}
+
+.img button{
+    height: 64px;
+    width: 15%;
+    margin-top: 25px;
+    border-radius: 30px;
+    border: none;
+    background-color: #e42a12;
+    color:  ghostwhite;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.about{
+    height: 100vh;
+    width: 100%;
+}
+
+.detail{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.detail h1{
+    font-size: 30px;
+    color: rgb(56, 56, 56);
+    margin: 10px;
+}
+.detail p{
+    font-size: 18px;
+    color: rgb(56, 56, 56);
+    margin: 10px;
+}
+
+.banner{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pic{
+    height: 100%;
+    width: 30%;
+}
+
+.pic img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+.pic h1{
+    color: rgb(61, 61, 61);
+    font-size: 30px;
+}
+.pic p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 12px;
+}
+
+.pic2{
+    height: 100%;
+    width: 30%;
+}
+
+.pic2 img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+.pic2 h1{
+    color: rgb(61, 61, 61);
+    font-size: 30px;
+}
+.pic2 p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 12px;
+}
+
+.pic3{
+    height: 100%;
+    width: 30%;
+}
+.pic3 img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+.pic3 h1{
+    color: rgb(61, 61, 61);
+    font-size: 30px;
+}
+.pic3 p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 12px;
+}
+
+.steps{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.family{
+    height: 100%;
+    width: 50%;
+    background-image: url(/images/Family_cooking.webp);
+    background-size: cover;
+}
+
+.process{
+    height: 100%;
+    width: 50%;
+    background-color: rgba(255,148,110,.2);
+}
+
+.process h1{
+    margin-left: 20px;
+    margin-top: 150px;
+    font-weight: 600;
+    font-size: 35px;
+    color: #e42a12;
+}
+
+.process p{
+    margin-left: 100px;
+    margin: 20px;
+    font-size: 17px;
+}
+
+.process li{
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 500px;
+    margin: 10px;
+    list-style: none;
+
+}
+
+.process button{
+    height: 8vh;
+    width:30%;
+    margin-top: 50px;
+    border-radius: 30px;
+    border: none;
+    background-color: #e42a12;
+    color:  ghostwhite;
+    font-weight: 600;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.slide{
+    height: 100vh;
+    width: 100%;
+}
+
+.show {
+    height: 20%;
+    width: 100%;
+    color: rgb(61, 61, 61);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.show h1{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+.show p{
+    font-size: 20px;
+}
+.slideshow{
+    height: 60%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+.one{
+    height: 90%;
+    width: 20%;
+}
+
+.one img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+.two{
+    height: 90%;
+    width: 20%;
+}
+
+.two img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+
+.three{
+    height: 90%;
+    width: 20%;
+}
+
+.three img{
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+}
+.slide button{
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    height: 8vh;
+    width:300px;
+    border-radius: 30px;
+    border: none;
+    background-color: #e42a12;
+    color:  ghostwhite;
+    font-weight: 600;
+    font-size: 20px;
+}
